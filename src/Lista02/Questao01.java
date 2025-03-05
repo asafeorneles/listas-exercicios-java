@@ -12,10 +12,8 @@ public class Questao01 {
 
         if(nota >= 7 && frequencia >= 0.75){
             System.out.println("Aluno aprovado!");
-
         } else if ((nota >= 4  && nota <= 7) && frequencia >= 0.75) {
             System.out.println("Aluno em recuperação");
-
         } else {
             System.out.println("Aluno reprovado!");
         }
