@@ -8,10 +8,10 @@ public class Questao01 {
 
         System.out.println("Digite 3 notas");
 
-        int nota1, nota2, nota3;
-        nota1 = entrada.nextInt();
-        nota2 = entrada.nextInt();
-        nota3 = entrada.nextInt();
+        double nota1, nota2, nota3;
+        nota1 = entrada.nextDouble();
+        nota2 = entrada.nextDouble();
+        nota3 = entrada.nextDouble();
 
         double media = (nota1 + nota2 + nota3) / 3;
 
