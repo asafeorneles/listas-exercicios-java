@@ -1,4 +1,4 @@
-package Lista01;
+package Lista01_EntradaSaidaEOperacoesBasicas;
 
 import java.util.Scanner;
 
@@ -11,11 +11,11 @@ public class Desafio {
         System.out.println("Digite um valor inteiro: ");
         int valor = entrada.nextInt();
 
-        for (int i = 0; i < notas.length; i++) {
-            int quantidadeNotas = valor / notas[i];
-            valor = valor - quantidadeNotas * notas[i];
+        for (int nota : notas) {
+            int quantidadeNotas = valor / nota;
+            valor = valor - quantidadeNotas * nota;
 
-            System.out.println("Notas de R$: " + notas[i] + ": " + quantidadeNotas);
+            System.out.println("Notas de R$: " + nota + ": " + quantidadeNotas);
         }
     }
 }

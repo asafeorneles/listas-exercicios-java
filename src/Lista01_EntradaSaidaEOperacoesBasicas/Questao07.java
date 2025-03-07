@@ -1,4 +1,4 @@
-package Lista01;
+package Lista01_EntradaSaidaEOperacoesBasicas;
 
 import java.util.Scanner;
 

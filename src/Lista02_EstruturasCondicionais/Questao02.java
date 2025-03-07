@@ -1,4 +1,4 @@
-package Lista02;
+package Lista02_EstruturasCondicionais;
 
 import java.util.Scanner;
 
