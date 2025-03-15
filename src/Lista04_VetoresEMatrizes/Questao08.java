@@ -19,7 +19,7 @@ public class Questao08 {
             double totalVendasMes = 0;
 
             for (int j = 0; j < vendas[i].length; j++) {
-                System.out.println("Semana " + (j + 1) + ": ");
+                System.out.println("Semana " + (j + 1) + ":");
                 vendas[i][j] = entrada.nextDouble();
 
                 vendasSemanas[j] += vendas[i][j];
