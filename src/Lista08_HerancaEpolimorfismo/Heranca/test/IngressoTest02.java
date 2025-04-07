@@ -1,5 +1,5 @@
-package Lista08_HerancaEpolimorfismo.test;
-import Lista08_HerancaEpolimorfismo.dominio.*;
+package Lista08_HerancaEpolimorfismo.Heranca.test;
+import Lista08_HerancaEpolimorfismo.Heranca.dominio.*;
 
 
 import java.util.Scanner;

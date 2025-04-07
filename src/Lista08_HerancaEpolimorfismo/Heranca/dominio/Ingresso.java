@@ -1,4 +1,4 @@
-package Lista08_HerancaEpolimorfismo.dominio;
+package Lista08_HerancaEpolimorfismo.Heranca.dominio;
 
 public abstract class Ingresso {
     public static final double VALOR_INGRESSO = 120;

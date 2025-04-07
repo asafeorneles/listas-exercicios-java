@@ -1,4 +1,4 @@
-package Lista08_HerancaEpolimorfismo.dominio;
+package Lista08_HerancaEpolimorfismo.Heranca.dominio;
 
 public class Normal extends Ingresso{
 
